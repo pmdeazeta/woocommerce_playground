@@ -1,0 +1,16 @@
+<form method="POST" action="/api">
+  <p>Site: <input type="text" name="site"></p>
+  <p>Consumer Key: <input type="text" name="key"></p>
+  <p>Consumer Secret: <input type="text" name="secret"></p>
+  <p>insecure_mode: <input type="checkbox" name="insecure_mode"></p>
+  <p>Endpoint:
+    <select name="endpoint">
+      <option value="product">Product</option>
+      <option value="order">Order</option>
+      <option value="customer">Customer</option>
+      <option value="webhook">Webhook</option>
+    </select>
+  </p>
+  <p>Object ID: <input type="text" name="object_id"></p>
+  <input type="submit">
+</form>

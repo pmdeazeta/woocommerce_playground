@@ -1,7 +1,6 @@
 GIT
   remote: git://github.com/tradegecko/woocommerce_api.git
-  revision: e89a895427b62889feed1dcb9c87fccd55a9007b
-  branch: force-json
+  revision: 92e3f60832cff2917721caf94956318a5e675ea4
   specs:
     woocommerce_api (0.1.0)
       activemodel
@@ -62,4 +61,4 @@ DEPENDENCIES
   woocommerce_api!
 
 BUNDLED WITH
-   1.12.5
+   1.13.1

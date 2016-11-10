@@ -23,7 +23,9 @@ post '/api' do
 
   begin
     if id = params[:object_id].presence
-      object_klass(params[:endpoint]).find(id).to_json
+      resource = object_klass(params[:endpoint]).find(id)
+      resource.save if params[:test_post]
+      resource.to_json
     else
       object_klass(params[:endpoint]).all.to_json
     end

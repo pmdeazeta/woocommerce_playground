@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.4.1'
 gem 'sinatra'
 gem 'woocommerce_api', github: 'tradegecko/woocommerce_api'
 gem 'json', '2.1.0'

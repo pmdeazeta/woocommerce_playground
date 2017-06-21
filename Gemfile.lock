@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/tradegecko/woocommerce_api.git
-  revision: 92e3f60832cff2917721caf94956318a5e675ea4
+  revision: a00dcc27612f8c5c5f4e21c00f7e9e938fe7e20d
   specs:
-    woocommerce_api (0.1.0)
+    woocommerce_api (1.1.0)
       activemodel
       activesupport
       httparty
@@ -11,9 +11,9 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.0.0.1)
-      activesupport (= 5.0.0.1)
-    activesupport (5.0.0.1)
+    activemodel (5.1.1)
+      activesupport (= 5.1.1)
+    activesupport (5.1.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (~> 0.7)
       minitest (~> 5.1)
@@ -24,17 +24,17 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
-    concurrent-ruby (1.0.2)
+    concurrent-ruby (1.0.5)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     equalizer (0.0.11)
-    httparty (0.14.0)
+    httparty (0.15.5)
       multi_xml (>= 0.5.2)
-    i18n (0.7.0)
+    i18n (0.8.4)
     ice_nine (0.11.2)
-    json (1.8.3)
-    minitest (5.9.0)
-    multi_xml (0.5.5)
+    json (2.1.0)
+    minitest (5.10.2)
+    multi_xml (0.6.0)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -42,9 +42,9 @@ GEM
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    thread_safe (0.3.5)
+    thread_safe (0.3.6)
     tilt (2.0.5)
-    tzinfo (1.2.2)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
     virtus (1.0.5)
       axiom-types (~> 0.1)
@@ -56,9 +56,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  json
+  json (= 2.1.0)
   sinatra
   woocommerce_api!
 
 BUNDLED WITH
-   1.13.1
+   1.15.1

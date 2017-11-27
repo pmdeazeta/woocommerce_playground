@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/tradegecko/woocommerce_api.git
-  revision: a00dcc27612f8c5c5f4e21c00f7e9e938fe7e20d
+  revision: 50955ddc53e919110dae43185f2741492215df09
   specs:
     woocommerce_api (1.1.0)
       activemodel
@@ -60,5 +60,8 @@ DEPENDENCIES
   sinatra
   woocommerce_api!
 
+RUBY VERSION
+   ruby 2.4.2p198
+
 BUNDLED WITH
-   1.15.1
+   1.16.0.pre.3

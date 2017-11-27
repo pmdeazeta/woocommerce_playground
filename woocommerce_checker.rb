@@ -14,7 +14,7 @@ post '/api' do
     store_url: params[:site],
     mode: connection_mode(params[:site], params[:insecure_mode]),
     version: params[:api_version],
-    wordpress_api: (params[:api_version] == "v1"),
+    wordpress_api: ["v1", "v2"].include?(params[:api_version]),
     headers: WoocommerceAPI::Client.default_client_options[:headers].merge({
       "User-Agent" => "TradeGeckoWoocommercePlayground/1.0 WoocommerceAPI/0.1.0"
     })

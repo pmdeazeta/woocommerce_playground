@@ -28,7 +28,7 @@ post '/api' do
       resource.save if params[:test_post]
       resource.to_json
     else
-      object_klass(params[:endpoint]).all.to_json
+      object_klass(params[:endpoint]).all(per_page: params[:perpage]).to_json
     end
   rescue => e
     e.message

@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/tradegecko/woocommerce_api.git
-  revision: 50955ddc53e919110dae43185f2741492215df09
+  remote: https://github.com/tradegecko/woocommerce_api.git
+  revision: 8468a6e3c648acea9918ea2f8a4144598ba99b51
   specs:
     woocommerce_api (1.1.0)
       activemodel
@@ -11,11 +11,11 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    activemodel (5.1.1)
-      activesupport (= 5.1.1)
-    activesupport (5.1.1)
+    activemodel (5.2.8.1)
+      activesupport (= 5.2.8.1)
+    activesupport (5.2.8.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     axiom-types (0.1.1)
@@ -24,33 +24,40 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.10)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    equalizer (0.0.11)
-    httparty (0.15.5)
+    httparty (0.20.0)
+      mime-types (~> 3.0)
       multi_xml (>= 0.5.2)
-    i18n (0.8.4)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
     ice_nine (0.11.2)
     json (2.1.0)
-    minitest (5.10.2)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    minitest (5.15.0)
     multi_xml (0.6.0)
-    rack (1.6.4)
-    rack-protection (1.5.3)
+    mustermann (2.0.2)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.4)
+    rack-protection (2.2.3)
       rack
-    sinatra (1.4.7)
-      rack (~> 1.5)
-      rack-protection (~> 1.4)
-      tilt (>= 1.3, < 3)
+    ruby2_keywords (0.0.5)
+    sinatra (2.2.3)
+      mustermann (~> 2.0)
+      rack (~> 2.2)
+      rack-protection (= 2.2.3)
+      tilt (~> 2.0)
     thread_safe (0.3.6)
-    tilt (2.0.5)
-    tzinfo (1.2.3)
+    tilt (2.0.11)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
-    virtus (1.0.5)
+    virtus (2.0.0)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
-      equalizer (~> 0.0, >= 0.0.9)
 
 PLATFORMS
   ruby
